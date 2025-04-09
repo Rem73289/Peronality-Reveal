@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Discover Your Secret Trait</title>
+  <title>Discover Your Fortune</title>
   <style>
     body { text-align: center; font-family: Arial; margin-top: 100px; }
     button { background-color: red; color: white; padding: 20px 40px; font-size: 24px; border: none; cursor: pointer; }
-    #result { margin-top: 20px; font-size: 20px; }
+    #fortune { margin-top: 20px; font-size: 20px; font-style: italic; }
   </style>
 </head>
 <body>
-  <h1>One Click to Unlock Your Hidden Vibe</h1>
-  <button onclick="showTrait()">Discover Your Secret Trait</button>
-  <p id="result"></p>
+  <h1>One Click to Reveal Your Fortune</h1>
+  <button onclick="showFortune()">Discover Your Fortune</button>
+  <p id="fortune"></p>
   <script>
-    function showTrait() {
-      const traits = [
-        "You're a stealthy genius.",
-        "You're a chaotic dreamer.",
-        "You're a quiet rebel.",
-        "You're a bold visionary.",
-        "You're a secret comedian.",
-        "You're a cosmic wanderer.",
-        "You're a fearless trailblazer.",
-        "You're a quirky inventor.",
-        "You're a hidden poet.",
-        "You're a radiant optimist.",
-        "You're a mischievous strategist.",
-        "You're a timeless adventurer.",
-        "You're a gentle powerhouse.",
-        "You're a dazzling enigma.",
-        "You're a playful philosopher.",
-        "You're a cunning alchemist.",
-        "You're a serene daredevil.",
-        "You're a whimsical mastermind.",
-        "You're a fierce daydreamer.",
-        "You're a subtle conqueror.",
-        "You're a vibrant chameleon.",
-        "You're a rogue storyteller.",
-        "You're a mystic observer.",
-        "You're a spirited trickster.",
-        "You're a lunar architect."
+    function showFortune() {
+      const fortunes = [
+        "A joyful surprise is near.",
+        "Your smile opens new paths.",
+        "Kindness returns to you soon.",
+        "A bold step brings great reward.",
+        "Love whispers in the wind.",
+        "Adventure awaits your next move.",
+        "A friend’s gift lifts your day.",
+        "Wisdom blooms in quiet times.",
+        "A small act sparks big change.",
+        "The stars favor your dreams.",
+        "A sweet moment is coming.",
+        "Your courage lights the way.",
+        "Peace follows your next choice.",
+        "A secret wish nears its time.",
+        "Creativity unlocks your future.",
+        "Laughter heals a hidden hurt.",
+        "A golden chance arrives softly.",
+        "Your heart finds its rhythm.",
+        "A stranger’s help surprises you.",
+        "Patience turns to treasure.",
+        "A melody lifts your spirit.",
+        "Good news flies to you fast.",
+        "Your light shines brighter soon.",
+        "A lucky break changes all.",
+        "Harmony grows from your steps."
       ];
-      const randomTrait = traits[Math.floor(Math.random() * traits.length)];
-      document.getElementById("result").innerText = randomTrait;
+      const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
+      document.getElementById("fortune").innerText = randomFortune;
     }
   </script>
 </body>
